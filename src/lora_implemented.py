@@ -1,6 +1,6 @@
-from lora_skeleton import LoRALinear, process_sequences, evaluate
-from qwen import load_qwen
-from preprocessor import load_and_preprocess
+from .lora_skeleton import LoRALinear, process_sequences, evaluate
+from .qwen import load_qwen
+from .preprocessor import load_and_preprocess
 from torch.utils.data import DataLoader, TensorDataset
 from accelerate import Accelerator
 import matplotlib.pyplot as plt
