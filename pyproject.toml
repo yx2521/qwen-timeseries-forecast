@@ -24,16 +24,6 @@ classifiers = [
 # Runtime dependencies
 dependencies = []
 
-# [project.urls]
-# "Documentation" = ""
-# "Source" = ""
-
-
-#[tool.setuptools_scm]
-#write_to = "dual_autodiff/version.py"
 
 [tool.setuptools.packages.find]
 where = ["."]
-
-[project.scripts]
-# dual = "dual_autodiff.cli:main"
